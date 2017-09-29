@@ -1,0 +1,16 @@
+// reversed number
+#include<stdio.h>
+int main()
+{
+	int i, j, num, num_width, a;
+	printf("Enter an integer:");
+	scanf("%d",&num);
+	a = num;
+while(a != 0)
+{
+	a /= 10; //把这个数字除以10,然后再求余，可以得到10位
+	num_width++;//每次循环，就可以得到位数。
+}
+
+
+}
