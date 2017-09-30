@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+  int
+  printf("Enter number of day in month:");
+  scanf("%d",&day);
+  printf("");
+  scanf("%d",&start);
+  while(i <= start)
+  {printf("   ");i++;}
+  for(i = 1;i <= n;i++)
+  {
+    printf("%3d",i)
+    if((start + (i - 1)) % 7 == 0）
+    {
+      printf("\n");
+    }
+    
+    
+    
+  }
+  return 0;
+}
